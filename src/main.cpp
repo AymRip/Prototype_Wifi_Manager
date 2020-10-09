@@ -18,10 +18,10 @@ void setup() {
 }
 
 void loop() {
-  /*if(touchRead(T0) < 50)
+  if(touchRead(T0) < 50)
   {
     Serial.println("Suppression des reglages et redemarrage...");
     wm.resetSettings();
     ESP.restart();
-  }*/
+  }
 }
